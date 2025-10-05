@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "v2")
+			(outputdirectory "v3/")
 		)
 	)
 	(net 0 "")
@@ -1486,16 +1486,89 @@
 		(layer "B.Mask")
 		(uuid "fef4d1a3-70a7-4f8e-ae24-11ad11e86cf7")
 	)
-	(gr_rect
-		(start -49.5 -104)
-		(end 406.5 352)
+	(gr_arc
+		(start 406.5 347)
+		(mid 405.035534 350.535534)
+		(end 401.5 352)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "27fb04aa-175f-4ea9-9c51-6b881d3911fc")
+		(uuid "2cb316ef-354f-49e9-8a27-329016f607d4")
+	)
+	(gr_line
+		(start -49.5 347)
+		(end -49.5 -99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a3c1e5b2-3d4e-4f8c-8c7c-333333333333")
+	)
+	(gr_arc
+		(start -49.5 -99)
+		(mid -48.035534 -102.535534)
+		(end -44.5 -104)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b2d4e6c3-4e5f-5a9d-7d8d-444444444444")
+	)
+	(gr_line
+		(start 406.5 -99)
+		(end 406.5 347)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b6c89332-5a6a-4bbb-bd28-48ee9bb8e974")
+	)
+	(gr_line
+		(start -44.5 -104)
+		(end 401.5 -104)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c1e5f7d4-5f6a-6b0e-8e9e-555555555555")
+	)
+	(gr_arc
+		(start -44.5 352)
+		(mid -48.035534 350.535534)
+		(end -49.5 347)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d4b2f6a0-2c3d-4e7b-9b6b-222222222222")
+	)
+	(gr_arc
+		(start 401.5 -104)
+		(mid 405.035534 -102.535534)
+		(end 406.5 -99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d5f6a8e7-6a7b-7c1f-9f0f-666666666666")
+	)
+	(gr_line
+		(start 401.5 352)
+		(end -44.5 352)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ec9f3a8f-1b2c-4d7e-9a6a-111111111111")
 	)
 	(gr_text "H1"
 		(at 361.5 343 0)
@@ -1505,6 +1578,17 @@
 			(font
 				(size 10 10)
 				(thickness 2)
+			)
+		)
+	)
+	(gr_text "M. House"
+		(at 378 314 0)
+		(layer "F.Cu")
+		(uuid "1122aabb-3344-ccdd-5566-777788889999")
+		(effects
+			(font
+				(size 6 6)
+				(thickness 1.1)
 			)
 		)
 	)
@@ -1736,6 +1820,17 @@
 			(font
 				(size 10 10)
 				(thickness 2)
+			)
+		)
+	)
+	(gr_text "2025-10-05"
+		(at 378 328 0)
+		(layer "F.Cu")
+		(uuid "aa11bb22-cc33-44dd-ee55-666677778888")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.9)
 			)
 		)
 	)
