@@ -14,6 +14,14 @@ This is an **open-source, regulation-size chess board** designed using KiCad 9.0
 - **Black-and-gold option**:
   - Flip mask rectangles so A1 becomes black, H1 remains gold.
 
+## Design Goals
+
+- **Simple & flat**: a minimal-profile board for comfortable play and easy storage.
+- **Gold-and-white color scheme**: aesthetic choice implemented via ENIG gold plating and white solder mask.
+- **Dual-side functionality**:
+  - One side is intentionally simple and uncluttered for standard play.
+  - The other side includes an identification marker on each square (beyond the usual rank/file labels) to aid setup, teaching, and accessibility.
+
 ---
 
 ## Implementation Notes
