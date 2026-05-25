@@ -36,6 +36,16 @@ This is an **open-source, regulation-size chess board** designed using KiCad 9.0
 ## Usage
 - Upload `v3.zip` (or files in `v3/`) directly to a PCB manufacturer such as JLCPCB to produce the board.
 
+## 3D Preview Images
+
+Front view (white and gold):
+
+![White and gold 3D front](Pictures/White_and_gold_3d_front_Screenshot%202025-10-05%20064438.png)
+
+Back view (white and gold):
+
+![White and gold 3D back](Pictures/White_and_gold_3d_back_Screenshot%202025-10-05%20064417.png)
+
 ---
 
 ## AI Experiment Context
@@ -43,7 +53,8 @@ This is an **open-source, regulation-size chess board** designed using KiCad 9.0
 This board was created to **benchmark AI-assisted hardware design workflows**.
 - The design took **a few hours with AI** versus weeks of manual KiCad work.
 - The key takeaway: AI significantly compresses design time, but **human oversight and cost evaluation remain critical**.
-- Current fabrication costs (including tariffs) are ~$50/unit for small runs (5 boards), compared to typical expected costs of <$25/unit for this scale.
+- Current quote status for a small run of 5 boards is about **$107 per board**.
+- Expected post-tariff normalization is about **$25 to $50 per board**.
 
 ---
 
